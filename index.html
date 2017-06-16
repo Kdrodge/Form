@@ -1,0 +1,56 @@
+<html>
+<body>
+<h1>Form</h1>
+
+<form method ="post"
+	action="http://webdevfoundations.net/scripts/formdemo.asp"
+	onsubmit="return validateForm( );">
+	
+		First Name:<br>
+		<input type="text" name="custName" id="custName" size="30" /><br>
+
+		Last Name:<br>
+               <input type="text" name="userLast" id="userLast" size="30"/><br>
+
+               E-mail:<br>
+		<input type="text" name="custEmail" id="custEmail" size="30"/><br>
+
+                Phone:<br>
+              <input type="text" name="phone" id="CustPhone" size="15"
+		     maxlength="12" value="###-###-####" /><br>
+		
+		Address:<br>
+               <input type="text" name="custAddress" id="custAddress" size="30"/>			
+		<br>
+		
+               City:<br>
+               <input type="text" name="custCity" id="custCity" size="30"/>			
+		<br>
+                     State:<br>
+               <input type="text" name="custState" id="custState" size="30"/>			
+		<br>
+
+                            Zip Code:<br>
+               <input type="text" name="custZip" id="custZip" size="9"/>			
+		<br>
+                <br>
+
+                 Are you an American citizen?<br/>
+		<input type="checkbox" name="citizenYes" id="yes" value="yes" />Yes
+<br /><input type="checkbox" align="right" name="no" id="no" value="no" />
+		No<br>
+				
+					
+		<br />
+		Can you be contacted?<br/>
+		<input type ="radio" name="ContactYes" id="yes"
+			value="yes" />Yes<br />
+		<input type ="radio" name="no" id="no"
+			value="no" />No<br />
+		
+		<br />	<input type="submit" value="Submit"/>
+
+		
+</form>
+</body>
+</html>
